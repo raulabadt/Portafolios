@@ -133,3 +133,69 @@ section {
   border-radius: 10px;
   
 }
+
+/* Estilos para pantallas menores o iguales a 767px */
+@media screen and (max-width: 767px) {
+  .container {
+    padding: 2rem;
+  }
+
+  pre{
+    overflow: auto;
+  }
+  
+  .pre-button {
+    margin-left: 10%;
+    padding: 10px 50px;
+    font-size: 14px;
+  }
+  
+  .profile-image {
+    width: 150px;
+    height: 120px;
+  }
+}
+
+/* Estilos para pantallas con anchura entre 768px y 1023px */
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .container {
+    width: 90%;
+  }
+  
+  #principal {
+    width: 100%;
+  }
+  
+  #lateral {
+    width: 100%;
+    float: none;
+    margin-top: 20px;
+  }
+
+  pre{
+    overflow: auto;
+  }
+  
+  .pre-button {
+    margin-left: 10%;
+    padding: 10px 50px;
+    font-size: 14px;
+  }
+}
+
+/* Estilos para pantallas con anchura mayor o igual a 1024px */
+@media screen and (min-width: 1024px) {
+  .container {
+    width: 900px;
+  }
+  
+  .profile-image {
+    width: 250px;
+    height: 200px;
+  }
+
+  pre{
+    overflow: auto;
+  }
+  
+}
