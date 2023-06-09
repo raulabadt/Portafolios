@@ -16,6 +16,7 @@ body {
   background-color: white;
   border-radius: 0.4rem;
   box-shadow: rgba(6, 248, 135, 0.2) 0px 1rem 3.5rem;
+  
  
   
 }
@@ -40,8 +41,7 @@ pre{
   color: greenyellow;
   border: 10px solid #5a5757;
   cursor: pointer;
-  
- 
+   
 }
 
 
@@ -136,34 +136,57 @@ section {
 
 /* Estilos para pantallas menores o iguales a 767px */
 @media screen and (max-width: 767px) {
+  
   .container {
     padding: 2rem;
+    
+    
+  }
+
+  #principal {
+    float: left;
+    font-size: 20px;
+  }
+
+  .container-colmns {
+    display: flex;
+  }
+  
+  .column {
+    flex: 1;
+    padding: 5px;
+    font-size: 20px
+    ;
   }
 
   pre{
+    
     overflow: auto;
   }
   
   .pre-button {
-    margin-left: 10%;
-    padding: 10px 50px;
-    font-size: 14px;
+    padding: 20px 1px;
+    font-size: 20px;
+    margin: auto;
   }
   
   .profile-image {
     width: 150px;
     height: 120px;
   }
+
 }
 
 /* Estilos para pantallas con anchura entre 768px y 1023px */
 @media screen and (min-width: 768px) and (max-width: 1023px) {
   .container {
     width: 90%;
+    
   }
   
   #principal {
-    width: 100%;
+    float: left;
+    font-size: 20px;
   }
   
   #lateral {
@@ -171,15 +194,24 @@ section {
     float: none;
     margin-top: 20px;
   }
+  .container-colmns {
+    display: flex;
+  }
+  
+  .column {
+    flex: 1;
+    padding: 5px;
+    font-size: 20px;
+  }
 
   pre{
     overflow: auto;
   }
   
   .pre-button {
-    margin-left: 10%;
-    padding: 10px 50px;
-    font-size: 14px;
+    padding: 20px 1px;
+    font-size: 20px;
+    margin: auto;
   }
 }
 
@@ -187,6 +219,11 @@ section {
 @media screen and (min-width: 1024px) {
   .container {
     width: 900px;
+  }
+
+  #principal {
+    float: left;
+    
   }
   
   .profile-image {
