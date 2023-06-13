@@ -46,17 +46,17 @@ pre{
 
 
 .pre-button {
-  position: absolute;
+  
   top: 10px;
-  margin-left: 20%;
   
   background: #353535;
   color: greenyellow;
-  padding: 20px 90px;
+  padding: 40px 90px;
   border: 10px solid #5a5757;;
   border-radius: 15px;
-  font-size: 18px;
+  font-size: 30px;
   cursor: pointer;
+  text-align: center;
 }
 
 .profile-image {
@@ -169,11 +169,7 @@ section {
     overflow: auto;
   }
   
-  .pre-button {
-    padding: 18px 4px;
-    
-    position: fixed;
-  }
+
   
   .profile-image {
     width: 150px;
@@ -219,11 +215,6 @@ section {
     padding: 10px;
   }
   
-  .pre-button {
-    padding: 18px 4px;
-    
-    position: fixed;
-  }
 }
 
 /* Estilos para pantallas con anchura mayor o igual a 1024px */
