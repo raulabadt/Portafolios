@@ -145,7 +145,7 @@ section {
 
   #principal {
     float: left;
-    font-size: 20px;
+    /*font-size: 20px;*/
   }
 
   .container-colmns {
@@ -155,7 +155,7 @@ section {
   .column {
     flex: 1;
     padding: 5px;
-    font-size: 20px;
+    /*font-size: 20px;*/
   }
 
   section {
@@ -186,7 +186,7 @@ section {
   
   #principal {
     float: left;
-    font-size: 20px;
+    /*font-size: 20px;*/
   }
   
   #lateral {
@@ -201,7 +201,7 @@ section {
   .column {
     flex: 1;
     padding: 5px;
-    font-size: 20px;
+    /*font-size: 20px;*/
   }
 
   section {
